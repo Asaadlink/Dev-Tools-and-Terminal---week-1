@@ -1,0 +1,64 @@
+
+link-@ASAAD MINGW64 ~/Desktop
+$ mkdir PartI
+
+link-@ASAAD MINGW64 ~/Desktop
+$ cd PartI
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$ mkdir first
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$ cd first
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ touch person.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ ls
+person.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ mv person.txt another.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ ls
+another.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ cp another.txt copy.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ ls
+another.txt  copy.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ rm copy.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ ls
+another.txt
+
+link-@ASAAD MINGW64 ~/Desktop/PartI/first
+$ cd ..
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$ cp first second
+cp: -r not specified; omitting directory 'first'
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$ cp -r first second
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$ ls
+first/  second/
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$ rm -r second
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$ ls
+first/
+
+link-@ASAAD MINGW64 ~/Desktop/PartI
+$
